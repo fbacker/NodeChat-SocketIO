@@ -39,7 +39,9 @@ Run it
 Make sure redis is running
 
 Start chat server
-node --nouse-idle-notification --expose-gc app.js
+
+	node --nouse-idle-notification --expose-gc app.js
 
 Run load testing with 10.000 clients
-node loadtest.js 10000
+
+	node loadtest.js 10000
