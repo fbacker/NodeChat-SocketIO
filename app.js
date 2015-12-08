@@ -17,7 +17,7 @@ var conf = {
     expireCheck: 0.2 * 60 * 1000, // every 20 secondsfor expired things
     expireMessage: 3 * 60, // 30 sec, then remove user
     expireProcess: 3 * 60 // 30 sec, then remove process
-    //facebookTimeout: 4 * 60 // timeout 4 hours
+    facebookTimeout: 15 * 60 // timeout 15 min
 };
 
 var environment = process.env.NODE_ENV;
